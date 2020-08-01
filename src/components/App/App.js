@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
-import Yelp from '../../../../private/util/Yelp';
+import Yelp from '../../util/Yelp';
 
 // The business object contains multiple key/value pairs that form the individual business cards on the home page of the Ravenous App.
 
