@@ -71,7 +71,7 @@
     transition: background-color .5s;
   }
   
-  .SearchBar-submit a:hover {
+  .SearchBar-submit span:hover {
     cursor: pointer;
     background-color: #a7874b;
   }
