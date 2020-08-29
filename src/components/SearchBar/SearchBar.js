@@ -38,6 +38,7 @@ class SearchBar extends React.Component {
         this.setState({
             term: event.target.value
         });
+        console.log(event);
     }
 
     handleLocationChange(event) {
@@ -47,12 +48,18 @@ class SearchBar extends React.Component {
     }
 
     handleSearch(event) {
+        if (this.state.term === '' || this.state.location === '') {
+            alert('Please enter both a restaurant and a location!');
+            return;
+        }
+
         this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
         event.preventDefault();
     }
 
     handleKeyPress(event) {
-        if (this.state.term === '' || this.state.location === '') {
+        if (event.nativeEvent.keyCode === 13 && (this.state.term === '' || this.state.location === '')) {
+            alert('Please enter both a restaurant and a location!');
             return;
         }
 
