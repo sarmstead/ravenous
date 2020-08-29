@@ -24,3 +24,6 @@ yarn-error.log*
 
 # security
 /src/util
+
+# branding
+/brand-assets/
