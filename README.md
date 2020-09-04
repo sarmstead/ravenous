@@ -1,5 +1,5 @@
 ## About Ravenous
-Ravenous is a frontend app that helps users find restaraunts in their area. The framework was created by Codecademy and completing this project is part of their Web Development career path.  
+Ravenous is a front-end app that helps users find restaurants in their area. The framework was created by Codecademy and completing this project is part of their Web Development career path.  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
